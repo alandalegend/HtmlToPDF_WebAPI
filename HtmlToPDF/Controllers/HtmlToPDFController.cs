@@ -7,6 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web.Http;
+using System.Web.Mvc;
 using TheArtOfDev.HtmlRenderer.PdfSharp;
 
 namespace HtmlToPDF.Controllers
@@ -24,7 +25,7 @@ namespace HtmlToPDF.Controllers
         /// model.contenidohtml, aquí pones tu HTML, y eso es lo que convertirá a un PDF
         /// </param>
         /// <returns></returns>
-        [HttpPost]
+        [System.Web.Http.HttpPost]
 
         public IHttpActionResult GenerarPDF([FromBody] parametros model)
         {
@@ -136,6 +137,7 @@ namespace HtmlToPDF.Controllers
     /// </summary>
     public class parametros
     {
+        [AllowHtml]
         /// <summary>
         /// Agrega el contenido HTML para ser convertido a PDF
         /// </summary>

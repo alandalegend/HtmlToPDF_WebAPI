@@ -3,29 +3,27 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>HTML to PDF </h1>
+    <p class="lead">Convierte tu HTML a un PDF.</p>
+    <p>@Html.ActionLink("Probar el código", "ConvertirHTMLToPDF", "Home", new { },new { @class= "btn btn-primary btn-lg" })</p>
+    <p><a href="https://www.nuget.org/packages/htmlrenderer.pdfsharp/" class="">Se usó HtmlRenderer.PdfSharp &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Haz tu HTML</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Crea tu html con tus super poderes de diseñador web
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Envialo por postman para probarlo [Método Post]</h2>
+        <p>Usa Postman y envia el body en json, si no pones nada, no pasa nada, el código enviará un ejemplo</p>
+        
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Visualiza tu PDF</h2>
+        <p>Listo, el sistema habrá generado tu PDF.</p>
     </div>
 </div>

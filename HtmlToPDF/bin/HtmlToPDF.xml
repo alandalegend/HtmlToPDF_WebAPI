@@ -501,10 +501,5 @@
             Clase que solo tiene una propiedad, ahí pones tu html
             </summary>
         </member>
-        <member name="P:HtmlToPDF.Controllers.parametros.contenidohtml">
-            <summary>
-            Agrega el contenido HTML para ser convertido a PDF
-            </summary>
-        </member>
     </members>
 </doc>

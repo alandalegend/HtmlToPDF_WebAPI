@@ -4,9 +4,75 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>D:\AplicacionesIIS\apiHtmlToPDF</_PublishTargetUrl>
+    <_PublishTargetUrl>\\192.168.15.18\d\AplicacionesIIS\apiHtmlToPdf</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Data/HtmlToPDF.xml">
+      <publishTime>10/14/2020 12:39:51</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>10/13/2020 20:15:17</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>10/13/2020 20:15:17</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>10/13/2020 20:15:42</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>10/13/2020 20:15:17</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>10/13/2020 20:15:17</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>10/13/2020 20:15:17</publishTime>
+    </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
@@ -62,10 +128,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/06/2015 10:39:04</publishTime>
     </File>
     <File Include="bin/HtmlToPDF.dll">
-      <publishTime>10/13/2020 19:26:35</publishTime>
+      <publishTime>10/14/2020 13:22:21</publishTime>
     </File>
     <File Include="bin/HtmlToPDF.pdb">
-      <publishTime>10/13/2020 19:26:35</publishTime>
+      <publishTime>10/14/2020 13:22:21</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
@@ -287,7 +353,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/13/2020 19:12:39</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/13/2020 19:12:36</publishTime>
+      <publishTime>10/14/2020 12:05:25</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>10/13/2020 19:12:36</publishTime>
@@ -355,14 +421,17 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>10/13/2020 19:12:36</publishTime>
     </File>
+    <File Include="Views/Home/ConvertirHTMLToPDF.cshtml">
+      <publishTime>10/14/2020 13:18:35</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/13/2020 19:12:36</publishTime>
+      <publishTime>10/14/2020 12:03:35</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>10/13/2020 19:12:36</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/13/2020 19:12:36</publishTime>
+      <publishTime>10/13/2020 20:17:08</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>10/13/2020 19:12:36</publishTime>
@@ -371,7 +440,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/13/2020 19:12:36</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/13/2020 19:26:36</publishTime>
+      <publishTime>10/14/2020 12:40:58</publishTime>
     </File>
   </ItemGroup>
 </Project>

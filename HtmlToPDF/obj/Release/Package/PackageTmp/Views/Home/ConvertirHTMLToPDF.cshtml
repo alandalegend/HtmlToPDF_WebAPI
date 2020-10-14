@@ -1,0 +1,45 @@
+﻿@model HtmlToPDF.Controllers.parametros
+
+<script src="//cdn.ckeditor.com/4.5.2/standard/ckeditor.js"></script>
+
+
+<h1>Convierte tu HTML a PDF</h1>
+
+@using (Html.BeginForm("ConvertirHTMLToPDF", "Home", FormMethod.Post))
+{
+
+
+    <div class=" col-lg-12">
+        @Html.LabelFor(x => x.contenidohtml)
+    </div>
+    <div class=" col-lg-12">
+
+        @Html.TextAreaFor(x => x.contenidohtml, new { @class = "form-control col-lg-12", rows = "5" })
+    </div>
+
+    <div class=" col-lg-12">
+        <button type="submit" class=" btn btn-primary btn-block">Convertir</button>
+    </div>
+}
+
+
+
+<script>
+
+    CKEDITOR.replace('contenidohtml',
+        {
+            allowedContent: true,
+            removePlugins: 'image',
+            language: 'es',
+
+            filebrowserImageBrowseUrl: '/AdministracionPost/uploadPartial',
+            filebrowserImageUploadUrl: '/AdministracionPost/uploadnow',
+            filebrowserUploadUrl: '/AdministracionPost/uploadnow',
+            filebrowserImageUploadUrl: '/AdministracionPost/uploadnow',
+            filebrowserWindowWidth: '440',
+            filebrowserWindowHeight: '280'
+        });
+
+</script>
+
+
