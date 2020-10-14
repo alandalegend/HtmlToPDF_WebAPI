@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPDF", "HtmlToPDF\HtmlToPDF.csproj", "{AEB8D946-9AF4-4733-93E4-B27BB3A2AF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB8D946-9AF4-4733-93E4-B27BB3A2AF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB8D946-9AF4-4733-93E4-B27BB3A2AF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB8D946-9AF4-4733-93E4-B27BB3A2AF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB8D946-9AF4-4733-93E4-B27BB3A2AF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7BAA8AD-8D14-4773-BA5F-28D552E2AB01}
+	EndGlobalSection
+EndGlobal
